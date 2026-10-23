@@ -1,0 +1,576 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>North Arquitetura &amp; Soluções — Do primeiro traço ao espaço vivido</title>
+  <meta name="description" content="Escritório de arquitetura fundado em 2020 por Jennifer Rech e Fernanda Correia. Arquitetura residencial, reformas e interiores, arquitetura comercial e acompanhamento de projetos e obras.">
+  <meta name="theme-color" content="#F2EFE8">
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="North Arquitetura &amp; Soluções">
+  <meta property="og:description" content="Do primeiro traço ao espaço vivido. Arquitetura, planejamento e soluções para transformar ideias em espaços funcionais.">
+  <meta property="og:locale" content="pt_BR">
+  <!-- TODO: og:image e og:url quando o domínio e as fotos reais estiverem definidos -->
+  <link rel="icon" href="assets/img/favicon.svg" type="image/svg+xml">
+
+  <script>document.documentElement.classList.add("js")</script>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Caveat:wght@500&family=Instrument+Serif:ital@0;1&family=Inter+Tight:wght@400;500;600&family=Mrs+Saint+Delafield&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="assets/css/styles.css">
+
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "ProfessionalService",
+    "name": "North Arquitetura & Soluções",
+    "description": "Arquitetura residencial, reformas e interiores, arquitetura comercial e projetos e obras.",
+    "foundingDate": "2020-01",
+    "founder": [
+      { "@type": "Person", "name": "Jennifer Rech" },
+      { "@type": "Person", "name": "Fernanda Correia" }
+    ]
+  }
+  </script>
+</head>
+<body>
+  <a class="skip-link" href="#conteudo">Pular para o conteúdo</a>
+
+  <svg width="0" height="0" style="position:absolute" aria-hidden="true">
+    <filter id="sketchy">
+      <feTurbulence type="fractalNoise" baseFrequency="0.035" numOctaves="2" seed="7"/>
+      <feDisplacementMap in="SourceGraphic" scale="2.4"/>
+    </filter>
+  </svg>
+
+  <!-- layout:header -->
+  <svg width="0" height="0" style="position:absolute" aria-hidden="true">
+  <!-- Símbolo North: círculo em croqui + agulha de norte.
+       Cores controláveis via CSS: color (agulha) e --mark-ring (círculo). -->
+  <symbol id="i-north" viewBox="0 0 64 64">
+    <g fill="none" stroke="var(--mark-ring, #A3A19A)" stroke-width="1" stroke-linecap="round">
+      <path d="M32 4.5c15.5 0 27.8 12 27.3 27.6-.5 15.4-13 27.6-28.3 27.4C15.6 59.3 4.2 46.8 4.6 31.5 5 16.4 17.4 4.8 32.6 5.2"/>
+      <path d="M31 6.2c15.8-.6 28 11.6 27.8 26.6-.2 15.8-12.6 27-27.9 26.8C16 59.4 5.2 47.4 5.6 32.2 6 17 17 6.5 33 6.4"/>
+      <path d="M33.5 3.8C49 4.6 60.6 17.4 59.8 33c-.8 15-13.8 26.3-29 25.6C15.4 57.8 4 45 5.4 30 6.8 15.2 19.6 3.8 35 4.6"/>
+    </g>
+    <path d="M32 12 43 49 32 41 21 49Z" fill="none" stroke="currentColor" stroke-width="1.4" stroke-linejoin="round"/>
+    <path d="M32 12 43 49 32 41Z" fill="currentColor"/>
+  </symbol>
+  <symbol id="i-arrow" viewBox="0 0 26 12">
+    <path d="M0 6h24M19 1l5 5-5 5" fill="none" stroke="currentColor" stroke-width="1.2"/>
+  </symbol>
+  <symbol id="i-whatsapp" viewBox="0 0 24 24">
+    <path fill="currentColor" d="M12 2a10 10 0 0 0-8.6 15.1L2 22l5-1.3A10 10 0 1 0 12 2Zm0 18.2a8.2 8.2 0 0 1-4.2-1.2l-.3-.2-3 .8.8-2.9-.2-.3A8.2 8.2 0 1 1 12 20.2Zm4.5-6.1c-.2-.1-1.5-.7-1.7-.8-.2-.1-.4-.1-.6.1l-.8 1c-.1.2-.3.2-.5.1a6.7 6.7 0 0 1-3.3-2.9c-.3-.4.2-.4.7-1.4.1-.2 0-.3 0-.4l-.8-1.8c-.2-.5-.4-.4-.6-.4h-.5a1 1 0 0 0-.7.3 3 3 0 0 0-.9 2.2c0 1.3.9 2.5 1 2.7.2.2 1.8 2.8 4.4 3.9 1.6.7 2.3.8 3.1.6.5-.1 1.5-.6 1.7-1.2.2-.6.2-1.1.2-1.2-.1-.1-.3-.2-.5-.3Z"/>
+  </symbol>  </svg>
+  <header class="site-header" data-header>
+    <div class="container site-header__inner">
+      <a class="brand" href="index.html" aria-label="North Arquitetura &amp; Soluções — página inicial">
+        <svg class="brand__mark" aria-hidden="true"><use href="#i-north"/></svg>
+        <span class="brand__name">NORTH</span>
+        <span class="brand__sub">Arquitetura<br>&amp; Soluções</span>
+      </a>
+      <button class="nav-toggle" type="button" aria-expanded="false" aria-controls="site-nav" data-nav-toggle>
+        <span class="nav-toggle__label">Menu</span>
+        <span class="nav-toggle__lines" aria-hidden="true"></span>
+      </button>
+      <nav class="site-nav" id="site-nav" aria-label="Principal" data-nav>
+        <ul>
+          <li><a href="servicos.html">Serviços</a></li>
+          <li><a href="projetos.html">Projetos</a></li>
+          <li><a href="metodo.html">Método</a></li>
+          <li><a href="sobre.html">A North</a></li>
+        </ul>
+        <a class="btn btn--primary btn--sm" href="contato.html">Fale com a North</a>
+      </nav>
+    </div>
+  </header>
+  <!-- /layout:header -->
+
+  <main id="conteudo">
+
+    <!-- ============ 01 · ABERTURA ============ -->
+    <section class="hero" id="inicio" aria-labelledby="hero-title">
+      <div class="container hero__grid">
+        <div class="hero__text">
+          <p class="label" data-reveal><span class="label__idx">N—01</span> Abertura</p>
+          <h1 class="display hero__title" id="hero-title" data-reveal>
+            Do primeiro traço <em>ao espaço vivido.</em>
+          </h1>
+          <p class="lead hero__lead" data-reveal>
+            Arquitetura, planejamento e soluções para transformar ideias em espaços funcionais, coerentes e bem resolvidos.
+          </p>
+          <div class="hero__ctas" data-reveal>
+            <a class="btn btn--primary" href="contato.html">
+              Vamos conversar sobre seu projeto
+              <svg class="i" aria-hidden="true"><use href="#i-arrow"/></svg>
+            </a>
+            <a class="btn btn--ghost" href="projetos.html">Explorar projetos</a>
+          </div>
+        </div>
+
+        <div class="hero__visual">
+          <div class="dim dim--h hero__dim" aria-hidden="true">
+            <span class="dim__label">estudo&nbsp;&nbsp;→&nbsp;&nbsp;espaço</span>
+          </div>
+
+          <svg class="sketch hero__sketch" viewBox="0 0 600 500" aria-hidden="true" focusable="false">
+            <g filter="url(#sketchy)">
+              <path class="draw faint" d="M0 300H600"/>
+              <path class="draw faint" d="M262 128 600 214"/>
+              <path class="draw faint" d="M262 128 0 186"/>
+              <path class="draw faint" d="M262 392 0 336"/>
+              <path class="draw" d="M36 178 262 127 524 188"/>
+              <path class="draw" d="M40 187 262 138 520 197"/>
+              <path class="draw" d="M36 178 40 190M524 188 520 199"/>
+              <path class="draw" d="M261 132V396"/>
+              <path class="draw" d="M268 150 70 193"/>
+              <path class="draw" d="M268 384 72 352"/>
+              <path class="draw" d="M80 184V362"/>
+              <path class="draw" d="M254 150 492 204"/>
+              <path class="draw" d="M254 384 490 348"/>
+              <path class="draw" d="M478 192V356"/>
+              <path class="draw" d="M302 212V364M302 212 446 240M444 232V350"/>
+              <path class="draw" d="M374 226V356"/>
+              <path class="draw" d="M162 270V372M196 264V376M162 270 196 264"/>
+              <path class="draw" d="M14 374C150 362 380 382 590 362"/>
+              <path class="draw" d="M548 342c-34-6-26-58 6-58 22-26 62 0 44 30 22 18-6 52-36 34-6 10-18 4-14-6Z"/>
+              <path class="draw" d="M556 348 558 374"/>
+              <path class="draw" d="M120 340v26M120 348l-6 10M120 348l6 10M120 366l-5 12M120 366l5 12"/>
+              <circle class="draw" cx="120" cy="335" r="4.5"/>
+            </g>
+          </svg>
+
+          <figure class="frame hero__photo">
+            <!-- Substituir pela fotografia de um projeto real da North -->
+            <img src="https://images.unsplash.com/photo-1600585154340-be6161a56a0c?auto=format&fit=crop&w=1400&q=70"
+                 alt="Fachada de residência contemporânea com volumes simples e grandes aberturas (imagem de referência)"
+                 width="1400" height="1470" fetchpriority="high">
+          </figure>
+
+          <p class="note hero__note" aria-hidden="true">luz da tarde entra aqui ↘</p>
+
+          <dl class="titleblock hero__titleblock">
+            <div><dt>Escritório</dt><dd>North Arquitetura &amp; Soluções</dd></div>
+            <div><dt>Prancha</dt><dd>01 — Abertura</dd></div>
+            <div><dt>Desde</dt><dd>Jan. 2020</dd></div>
+            <div><dt>Imagem</dt><dd>Referência*</dd></div>
+          </dl>
+        </div>
+      </div>
+
+      <div class="container hero__axes" aria-hidden="true">
+        <span>A</span><span>B</span><span>C</span><span>D</span><span>E</span>
+      </div>
+      <div class="container hero__signature" aria-hidden="true">
+        <p class="hero__wordmark">NORTH</p>
+        <p class="hero__script">Arquitetura &amp; Soluções</p>
+      </div>
+      <div class="container">
+        <p class="caption hero__disclaimer">* Imagem de referência — será substituída pelo portfólio da North.</p>
+      </div>
+    </section>
+
+    <!-- ============ 02 · PROCESSO ============ -->
+    <section class="section process" id="processo" aria-labelledby="process-title">
+      <div class="container">
+        <header class="sheet-head" data-reveal>
+          <span class="sheet-head__idx">N—02</span>
+          <span class="sheet-head__name">Arquitetura em processo</span>
+          <span class="sheet-head__rule" aria-hidden="true"></span>
+          <span class="sheet-head__meta">Do estudo à obra</span>
+        </header>
+
+        <div class="process__grid">
+          <div class="process__text">
+            <h2 class="display display--md" id="process-title" data-reveal>Toda solução começa com uma <em>boa pergunta.</em></h2>
+            <p class="lead" data-reveal>
+              Entender o espaço, identificar necessidades e encontrar o caminho mais adequado. É assim que transformamos ideias em decisões de projeto.
+            </p>
+            <a class="link-arrow" href="metodo.html" data-reveal>
+              Ver como trabalhamos <svg class="i" aria-hidden="true"><use href="#i-arrow"/></svg>
+            </a>
+          </div>
+
+          <ol class="process__board" aria-label="Etapas visuais do processo">
+            <li class="tile tile--sketch" data-reveal>
+              <svg class="sketch" viewBox="0 0 300 240" aria-hidden="true" focusable="false">
+                <g filter="url(#sketchy)">
+                  <path class="draw faint" d="M0 150H300M150 0V240"/>
+                  <path class="draw" d="M40 170 150 120 260 170"/>
+                  <path class="draw" d="M60 162V214H240V162"/>
+                  <path class="draw" d="M150 120V214"/>
+                  <path class="draw" d="M98 182h30v32M178 182h36v18h-36Z"/>
+                  <path class="draw" d="M30 214H272"/>
+                  <path class="draw" d="M40 60c20-16 50-16 70 0M130 50c14-10 34-10 48 0"/>
+                </g>
+              </svg>
+              <span class="note tile__note">e se a sala abrir para o jardim?</span>
+              <p class="tile__cap"><span>a</span> Croqui inicial</p>
+            </li>
+
+            <li class="tile tile--plan" data-reveal>
+              <svg class="sketch" viewBox="0 0 300 220" aria-hidden="true" focusable="false">
+                <g>
+                  <path class="draw strong" d="M30 30H270V190H30Z"/>
+                  <path class="draw" d="M140 30V120M140 150V190M140 120H200M230 120H270M30 110H100"/>
+                  <path class="draw faint" d="M140 120a30 30 0 0 1 30-30M100 110a26 26 0 0 0 26 26"/>
+                  <path class="draw faint" d="M30 14H270M30 10V18M270 10V18M140 10V18"/>
+                </g>
+                <text x="70" y="75">estar</text>
+                <text x="190" y="75">cozinha</text>
+                <text x="60" y="160">quarto</text>
+                <text x="185" y="160">quarto</text>
+              </svg>
+              <p class="tile__cap"><span>b</span> Organização do espaço <em>— diagrama ilustrativo</em></p>
+            </li>
+
+            <li class="tile tile--materials" data-reveal>
+              <ul class="swatches" aria-label="Amostras de materiais (ilustrativas)">
+                <li style="--c:#B9B2A4">Pedra</li>
+                <li style="--c:#9C7B5B">Madeira</li>
+                <li style="--c:#E4DED2">Linho</li>
+                <li style="--c:#4A4D4A">Metal</li>
+              </ul>
+              <p class="tile__cap"><span>c</span> Materiais</p>
+            </li>
+
+            <li class="tile tile--photo tile--site" data-reveal>
+              <figure class="frame">
+                <img src="https://images.unsplash.com/photo-1503387762-592deb58ef4e?auto=format&fit=crop&w=900&q=70"
+                     alt="Mesa com pranchas de projeto e instrumentos de desenho (imagem de referência)" loading="lazy" width="900" height="700">
+              </figure>
+              <p class="tile__cap"><span>d</span> Projeto e obra <em>— referência</em></p>
+            </li>
+
+            <li class="tile tile--photo tile--done" data-reveal>
+              <figure class="frame">
+                <img src="https://images.unsplash.com/photo-1600210492486-724fe5c67fb0?auto=format&fit=crop&w=1100&q=70"
+                     alt="Sala de estar iluminada com mobiliário em tons claros (imagem de referência)" loading="lazy" width="1100" height="800">
+              </figure>
+              <p class="tile__cap"><span>e</span> Espaço vivido <em>— referência</em></p>
+            </li>
+          </ol>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============ 03 · SERVIÇOS (resumo) ============ -->
+    <section class="section services" id="servicos" aria-labelledby="services-title">
+      <div class="container">
+        <header class="sheet-head" data-reveal>
+          <span class="sheet-head__idx">N—03</span>
+          <span class="sheet-head__name">Serviços</span>
+          <span class="sheet-head__rule" aria-hidden="true"></span>
+          <span class="sheet-head__meta">04 frentes de trabalho</span>
+        </header>
+
+        <div class="services__intro">
+          <h2 class="display display--md" id="services-title" data-reveal>Cada espaço pede <em>um caminho próprio.</em></h2>
+          <p class="lead" data-reveal>Da casa nova à reforma de um ambiente, da loja à coordenação da obra: escolha por onde começar.</p>
+        </div>
+
+        <ol class="service-list">
+          <li class="service" data-reveal>
+            <span class="service__num">01</span>
+            <div class="service__body">
+              <h3 class="service__title">Arquitetura residencial</h3>
+              <p>Casas pensadas a partir da rotina de quem vai morar nelas — implantação, luz, fluxos e materiais decididos com clareza.</p>
+            </div>
+            <svg class="sketch service__draw" viewBox="0 0 160 110" aria-hidden="true" focusable="false">
+              <path class="draw" d="M10 100H150M24 100V54L80 18l56 36v46M64 100V70h32v30M30 54h100"/>
+            </svg>
+            <a class="service__cta" href="servicos.html#residencial">Projetar minha casa <svg class="i" aria-hidden="true"><use href="#i-arrow"/></svg></a>
+          </li>
+          <li class="service" data-reveal>
+            <span class="service__num">02</span>
+            <div class="service__body">
+              <h3 class="service__title">Reformas e interiores</h3>
+              <p>Ambientes reorganizados para funcionar melhor: layout, marcenaria, iluminação e acabamentos pensados em conjunto.</p>
+            </div>
+            <svg class="sketch service__draw" viewBox="0 0 160 110" aria-hidden="true" focusable="false">
+              <path class="draw" d="M10 100H150M20 100V16M20 16H150"/>
+              <path class="draw" d="M40 100V78h56v22M40 78V68h56v10M44 68V60M92 68V60"/>
+              <path class="draw" d="M118 16v18M110 34h16l-4 10h-8Z"/>
+            </svg>
+            <a class="service__cta" href="servicos.html#reformas">Planejar minha reforma <svg class="i" aria-hidden="true"><use href="#i-arrow"/></svg></a>
+          </li>
+          <li class="service" data-reveal>
+            <span class="service__num">03</span>
+            <div class="service__body">
+              <h3 class="service__title">Arquitetura comercial</h3>
+              <p>Espaços que comunicam a marca e organizam o atendimento, com atenção ao fluxo de clientes e à operação do dia a dia.</p>
+            </div>
+            <svg class="sketch service__draw" viewBox="0 0 160 110" aria-hidden="true" focusable="false">
+              <path class="draw" d="M10 100H150M22 100V34h116v66M16 34h128l-6-16H22Z"/>
+              <path class="draw" d="M34 100V52h40v48M88 52h38v30H88Z"/>
+            </svg>
+            <a class="service__cta" href="servicos.html#comercial">Projetar meu negócio <svg class="i" aria-hidden="true"><use href="#i-arrow"/></svg></a>
+          </li>
+          <li class="service" data-reveal>
+            <span class="service__num">04</span>
+            <div class="service__body">
+              <h3 class="service__title">Projetos e obras</h3>
+              <p>Planejamento, coordenação e acompanhamento para que o projeto chegue ao espaço como foi pensado — quando contratado.</p>
+            </div>
+            <svg class="sketch service__draw" viewBox="0 0 160 110" aria-hidden="true" focusable="false">
+              <path class="draw faint" d="M14 20V100M14 100H150"/>
+              <path class="draw" d="M24 32h40M44 50h52M70 68h44M100 86h40"/>
+              <path class="draw" d="M24 28v8M64 28v8M44 46v8M96 46v8M70 64v8M114 64v8M100 82v8M140 82v8"/>
+            </svg>
+            <a class="service__cta" href="servicos.html#obras">Organizar minha obra <svg class="i" aria-hidden="true"><use href="#i-arrow"/></svg></a>
+          </li>
+        </ol>
+      </div>
+    </section>
+
+    <!-- ============ 04 · PROJETOS (destaques) ============ -->
+    <section class="section projects" id="projetos" aria-labelledby="projects-title">
+      <div class="container">
+        <header class="sheet-head" data-reveal>
+          <span class="sheet-head__idx">N—04</span>
+          <span class="sheet-head__name">Projetos</span>
+          <span class="sheet-head__rule" aria-hidden="true"></span>
+          <span class="sheet-head__meta">Seleção</span>
+        </header>
+
+        <div class="projects__intro">
+          <h2 class="display display--md" id="projects-title" data-reveal>Necessidade, solução <em>e espaço construído.</em></h2>
+          <p class="notice" data-reveal>
+            <strong>Conteúdo de exemplo.</strong> Imagens e textos abaixo são referências de layout e serão substituídos pelos projetos reais da North.
+          </p>
+        </div>
+
+        <div class="project-grid">
+          <article class="project project--xl" data-reveal>
+            <a class="project__link" href="projetos.html#p-01" aria-label="P—01, Residência unifamiliar: ver projeto">
+              <figure class="frame project__frame">
+                <img src="https://images.unsplash.com/photo-1600607687939-ce8a6c25118c?auto=format&fit=crop&w=1600&q=70"
+                     alt="Interior integrado com estar e jantar (imagem de referência)" loading="lazy" width="1600" height="1100">
+                <svg class="project__marks" viewBox="0 0 100 100" preserveAspectRatio="none" aria-hidden="true"><path d="M50 0V100M0 50H100"/></svg>
+              </figure>
+            </a>
+            <div class="project__meta">
+              <p class="project__id"><span>P—01</span> Residencial <span class="tag">Exemplo</span></p>
+              <h3 class="project__title">Residência unifamiliar</h3>
+              <dl class="project__facts">
+                <div><dt>Necessidade</dt><dd>Integrar áreas sociais e trazer luz natural ao centro da casa.</dd></div>
+                <div><dt>Solução</dt><dd>Planta contínua e aberturas orientadas para o jardim.</dd></div>
+                <div><dt>Escopo</dt><dd>Projeto arquitetônico e interiores.</dd></div>
+                <div><dt>Espaço</dt><dd>A sala se estende para fora; o jardim passa a fazer parte do dia a dia.</dd></div>
+              </dl>
+            </div>
+          </article>
+
+          <article class="project project--md project--offset" data-reveal>
+            <a class="project__link" href="projetos.html#p-02" aria-label="P—02, Ampliação residencial: ver projeto">
+              <figure class="frame project__frame">
+                <img src="https://images.unsplash.com/photo-1600566753190-17f0baa2a6c3?auto=format&fit=crop&w=1000&q=70"
+                     alt="Casa com volume revestido em madeira e jardim frontal (imagem de referência)" loading="lazy" width="1000" height="1250">
+                <svg class="project__marks" viewBox="0 0 100 100" preserveAspectRatio="none" aria-hidden="true"><path d="M50 0V100M0 50H100"/></svg>
+              </figure>
+            </a>
+            <div class="project__meta">
+              <p class="project__id"><span>P—02</span> Residencial · Reforma <span class="tag">Exemplo</span></p>
+              <h3 class="project__title">Ampliação residencial</h3>
+              <dl class="project__facts">
+                <div><dt>Necessidade</dt><dd>Ganhar área sem descaracterizar a casa existente.</dd></div>
+                <div><dt>Escopo</dt><dd>Projeto de ampliação e acompanhamento.</dd></div>
+              </dl>
+            </div>
+          </article>
+
+          <article class="project project--sm" data-reveal>
+            <a class="project__link" href="projetos.html#p-03" aria-label="P—03, Loja de rua: ver projeto">
+              <figure class="frame project__frame">
+                <img src="https://images.unsplash.com/photo-1441986300917-64674bd600d8?auto=format&fit=crop&w=900&q=70"
+                     alt="Loja com araras e iluminação pontual (imagem de referência)" loading="lazy" width="900" height="1100">
+                <svg class="project__marks" viewBox="0 0 100 100" preserveAspectRatio="none" aria-hidden="true"><path d="M50 0V100M0 50H100"/></svg>
+              </figure>
+            </a>
+            <div class="project__meta">
+              <p class="project__id"><span>P—03</span> Comercial <span class="tag">Exemplo</span></p>
+              <h3 class="project__title">Loja de rua</h3>
+              <dl class="project__facts">
+                <div><dt>Necessidade</dt><dd>Fluxo claro entre vitrine, exposição e caixa.</dd></div>
+              </dl>
+            </div>
+          </article>
+
+          <article class="project project--lg" data-reveal>
+            <a class="project__link" href="projetos.html#p-04" aria-label="P—04, Escritório corporativo: ver projeto">
+              <figure class="frame project__frame">
+                <img src="https://images.unsplash.com/photo-1497366216548-37526070297c?auto=format&fit=crop&w=1500&q=70"
+                     alt="Escritório com estações de trabalho e luz natural (imagem de referência)" loading="lazy" width="1500" height="1000">
+                <svg class="project__marks" viewBox="0 0 100 100" preserveAspectRatio="none" aria-hidden="true"><path d="M50 0V100M0 50H100"/></svg>
+              </figure>
+            </a>
+            <div class="project__meta">
+              <p class="project__id"><span>P—04</span> Comercial · Implantação <span class="tag">Exemplo</span></p>
+              <h3 class="project__title">Escritório corporativo</h3>
+              <dl class="project__facts">
+                <div><dt>Necessidade</dt><dd>Acomodar a equipe sem perder áreas de reunião.</dd></div>
+                <div><dt>Escopo</dt><dd>Projeto de interiores e acompanhamento da implantação.</dd></div>
+              </dl>
+            </div>
+          </article>
+        </div>
+
+        <div class="projects__more" data-reveal>
+          <a class="btn btn--ghost" href="projetos.html">Ver todos os projetos</a>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============ 05 · MÉTODO (resumo) ============ -->
+    <section class="section method" id="metodo" aria-labelledby="method-title">
+      <div class="container">
+        <header class="sheet-head" data-reveal>
+          <span class="sheet-head__idx">N—05</span>
+          <span class="sheet-head__name">Método de trabalho</span>
+          <span class="sheet-head__rule" aria-hidden="true"></span>
+          <span class="sheet-head__meta">05 etapas</span>
+        </header>
+
+        <h2 class="display display--md method__title" id="method-title" data-reveal>Um projeto se constrói <em>em camadas.</em></h2>
+
+        <div class="method__track">
+          <svg class="sketch method__line" viewBox="0 0 1000 20" preserveAspectRatio="none" aria-hidden="true" focusable="false">
+            <path class="draw" d="M0 10H1000"/>
+          </svg>
+          <ol class="steps">
+            <li class="step" data-reveal>
+              <span class="step__num">1</span>
+              <svg class="sketch step__icon" viewBox="0 0 64 64" aria-hidden="true" focusable="false"><path class="draw" d="M14 40c0-14 8-24 20-24s18 8 18 16-8 14-18 14H22l-8 8Z"/></svg>
+              <h3 class="step__title">Entender</h3>
+              <p>Conversa inicial, escuta e leitura do espaço. O que precisa mudar — e por quê.</p>
+            </li>
+            <li class="step" data-reveal>
+              <span class="step__num">2</span>
+              <svg class="sketch step__icon" viewBox="0 0 64 64" aria-hidden="true" focusable="false"><path class="draw faint" d="M8 20H56M8 36H56M20 8V56M36 8V56"/><path class="draw" d="M38 38m-10 0a10 10 0 1 0 20 0a10 10 0 1 0-20 0M45 45l10 10"/></svg>
+              <h3 class="step__title">Investigar</h3>
+              <p>Levantamento, referências, limites e possibilidades. As perguntas certas antes do desenho.</p>
+            </li>
+            <li class="step" data-reveal>
+              <span class="step__num">3</span>
+              <svg class="sketch step__icon" viewBox="0 0 64 64" aria-hidden="true" focusable="false"><path class="draw" d="M8 52 32 18l24 34ZM32 18V52M20 52V38h10"/></svg>
+              <h3 class="step__title">Projetar</h3>
+              <p>Croquis, estudos e soluções que viram projeto, ajustados junto com você.</p>
+            </li>
+            <li class="step" data-reveal>
+              <span class="step__num">4</span>
+              <svg class="sketch step__icon" viewBox="0 0 64 64" aria-hidden="true" focusable="false"><path class="draw" d="M10 16h22M18 28h26M30 40h24M10 52h44"/></svg>
+              <h3 class="step__title">Planejar</h3>
+              <p>Detalhamento, especificações e organização das etapas para a execução.</p>
+            </li>
+            <li class="step" data-reveal>
+              <span class="step__num">5</span>
+              <svg class="sketch step__icon" viewBox="0 0 64 64" aria-hidden="true" focusable="false"><path class="draw" d="M10 54H54M16 54V26h32v28M16 26 32 12l16 14M28 54V40h8v14"/></svg>
+              <h3 class="step__title">Executar ou acompanhar</h3>
+              <p>Acompanhamento da obra para que o projeto chegue ao espaço como foi pensado.</p>
+              <span class="tag tag--outline">Quando contratado</span>
+            </li>
+          </ol>
+        </div>
+        <div class="projects__more" data-reveal>
+          <a class="btn btn--ghost" href="metodo.html">Conhecer o método em detalhe</a>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============ 06 · A NORTH (resumo) ============ -->
+    <section class="section about" id="a-north" aria-labelledby="about-title">
+      <div class="container about__grid">
+        <div class="about__visual" data-reveal>
+          <!-- Espaço reservado para a fotografia real de Jennifer e Fernanda -->
+          <figure class="frame frame--slot about__photo">
+            <figcaption>
+              <svg class="i i--lg" aria-hidden="true"><use href="#i-north"/></svg>
+              <span>Fotografia real da equipe</span>
+              <small>Jennifer Rech &amp; Fernanda Correia — inserir imagem</small>
+            </figcaption>
+          </figure>
+          <p class="note about__note" aria-hidden="true">desde jan. 2020</p>
+        </div>
+
+        <div class="about__text">
+          <header class="sheet-head sheet-head--compact" data-reveal>
+            <span class="sheet-head__idx">N—06</span>
+            <span class="sheet-head__name">A North</span>
+            <span class="sheet-head__rule" aria-hidden="true"></span>
+          </header>
+          <h2 class="display display--md" id="about-title" data-reveal>Projeto e obra, <em>na mesma conversa.</em></h2>
+          <p class="lead" data-reveal>
+            A North foi fundada em janeiro de 2020 por Jennifer Rech e Fernanda Correia.
+          </p>
+          <blockquote class="mission" data-reveal>
+            <p class="mission__label">Nossa missão</p>
+            <p class="mission__text">Tornar o projeto arquitetônico uma arquitetura do dia a dia: simples, acessível, maximizando os sonhos e otimizando o tempo.</p>
+          </blockquote>
+          <ul class="skills" data-reveal>
+            <li><span>i</span> Interiores</li>
+            <li><span>ii</span> Coordenação de obras</li>
+            <li><span>iii</span> Projetos comerciais</li>
+            <li><span>iv</span> Implantação</li>
+          </ul>
+          <a class="link-arrow" href="sobre.html" data-reveal>
+            Conhecer a North <svg class="i" aria-hidden="true"><use href="#i-arrow"/></svg>
+          </a>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============ 07 · CHAMADA PARA CONTATO ============ -->
+    <section class="contact contact--band" aria-labelledby="cta-title">
+      <div class="container cta-band">
+        <header class="sheet-head sheet-head--compact sheet-head--invert" data-reveal>
+          <span class="sheet-head__idx">N—07</span>
+          <span class="sheet-head__name">Contato</span>
+          <span class="sheet-head__rule" aria-hidden="true"></span>
+        </header>
+        <h2 class="display contact__title" id="cta-title" data-reveal>Vamos dar forma à sua <em>próxima ideia?</em></h2>
+        <div class="cta-band__row">
+          <p class="lead" data-reveal>Conte um pouco sobre o espaço, o que você precisa e o que gostaria de transformar. Vamos começar pela conversa.</p>
+          <div class="cta-band__actions" data-reveal>
+            <a class="btn btn--light" href="contato.html">Falar com a North <svg class="i" aria-hidden="true"><use href="#i-arrow"/></svg></a>
+            <a class="btn btn--outline-light" href="contato.html" data-whatsapp>
+              <svg class="i i--wa" aria-hidden="true"><use href="#i-whatsapp"/></svg> WhatsApp
+            </a>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- layout:footer -->
+  <footer class="site-footer">
+    <div class="container site-footer__grid">
+      <a class="logo-lockup logo-lockup--invert" href="index.html" aria-label="North Arquitetura &amp; Soluções — página inicial">
+        <svg class="logo-lockup__mark" aria-hidden="true"><use href="#i-north"/></svg>
+        <span class="logo-lockup__name">NORTH</span>
+        <span class="logo-lockup__script">Arquitetura &amp; Soluções</span>
+      </a>
+      <nav class="site-footer__nav" aria-label="Rodapé">
+        <ul>
+          <li><a href="servicos.html">Serviços</a></li>
+          <li><a href="projetos.html">Projetos</a></li>
+          <li><a href="metodo.html">Método</a></li>
+          <li><a href="sobre.html">A North</a></li>
+          <li><a href="contato.html">Contato</a></li>
+        </ul>
+      </nav>
+      <dl class="site-footer__info">
+        <div><dt>E-mail</dt><dd data-config="email"><span class="slot">a definir</span></dd></div>
+        <div><dt>Instagram</dt><dd data-config="instagram"><span class="slot">a definir</span></dd></div>
+      </dl>
+    </div>
+    <div class="container site-footer__bottom">
+      <p>© <span data-year>2026</span> North Arquitetura &amp; Soluções</p>
+      <p>Desde janeiro de 2020</p>
+    </div>
+  </footer>
+  <!-- /layout:footer -->
+
+  <script src="assets/js/config.js"></script>
+  <script src="assets/js/main.js" defer></script>
+</body>
+</html>

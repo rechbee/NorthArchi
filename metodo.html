@@ -1,0 +1,191 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Método — North Arquitetura &amp; Soluções</title>
+  <meta name="description" content="Entender, investigar, projetar, planejar e acompanhar: como a North conduz cada projeto, do primeiro traço ao espaço vivido.">
+  <meta name="theme-color" content="#F2EFE8">
+  <link rel="icon" href="assets/img/favicon.svg" type="image/svg+xml">
+  <script>document.documentElement.classList.add("js")</script>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Caveat:wght@500&family=Instrument+Serif:ital@0;1&family=Inter+Tight:wght@400;500;600&family=Mrs+Saint+Delafield&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="assets/css/styles.css">
+</head>
+<body>
+  <a class="skip-link" href="#conteudo">Pular para o conteúdo</a>
+
+  <!-- layout:header -->
+  <svg width="0" height="0" style="position:absolute" aria-hidden="true">
+  <!-- Símbolo North: círculo em croqui + agulha de norte.
+       Cores controláveis via CSS: color (agulha) e --mark-ring (círculo). -->
+  <symbol id="i-north" viewBox="0 0 64 64">
+    <g fill="none" stroke="var(--mark-ring, #A3A19A)" stroke-width="1" stroke-linecap="round">
+      <path d="M32 4.5c15.5 0 27.8 12 27.3 27.6-.5 15.4-13 27.6-28.3 27.4C15.6 59.3 4.2 46.8 4.6 31.5 5 16.4 17.4 4.8 32.6 5.2"/>
+      <path d="M31 6.2c15.8-.6 28 11.6 27.8 26.6-.2 15.8-12.6 27-27.9 26.8C16 59.4 5.2 47.4 5.6 32.2 6 17 17 6.5 33 6.4"/>
+      <path d="M33.5 3.8C49 4.6 60.6 17.4 59.8 33c-.8 15-13.8 26.3-29 25.6C15.4 57.8 4 45 5.4 30 6.8 15.2 19.6 3.8 35 4.6"/>
+    </g>
+    <path d="M32 12 43 49 32 41 21 49Z" fill="none" stroke="currentColor" stroke-width="1.4" stroke-linejoin="round"/>
+    <path d="M32 12 43 49 32 41Z" fill="currentColor"/>
+  </symbol>
+  <symbol id="i-arrow" viewBox="0 0 26 12">
+    <path d="M0 6h24M19 1l5 5-5 5" fill="none" stroke="currentColor" stroke-width="1.2"/>
+  </symbol>
+  <symbol id="i-whatsapp" viewBox="0 0 24 24">
+    <path fill="currentColor" d="M12 2a10 10 0 0 0-8.6 15.1L2 22l5-1.3A10 10 0 1 0 12 2Zm0 18.2a8.2 8.2 0 0 1-4.2-1.2l-.3-.2-3 .8.8-2.9-.2-.3A8.2 8.2 0 1 1 12 20.2Zm4.5-6.1c-.2-.1-1.5-.7-1.7-.8-.2-.1-.4-.1-.6.1l-.8 1c-.1.2-.3.2-.5.1a6.7 6.7 0 0 1-3.3-2.9c-.3-.4.2-.4.7-1.4.1-.2 0-.3 0-.4l-.8-1.8c-.2-.5-.4-.4-.6-.4h-.5a1 1 0 0 0-.7.3 3 3 0 0 0-.9 2.2c0 1.3.9 2.5 1 2.7.2.2 1.8 2.8 4.4 3.9 1.6.7 2.3.8 3.1.6.5-.1 1.5-.6 1.7-1.2.2-.6.2-1.1.2-1.2-.1-.1-.3-.2-.5-.3Z"/>
+  </symbol>  </svg>
+  <header class="site-header" data-header>
+    <div class="container site-header__inner">
+      <a class="brand" href="index.html" aria-label="North Arquitetura &amp; Soluções — página inicial">
+        <svg class="brand__mark" aria-hidden="true"><use href="#i-north"/></svg>
+        <span class="brand__name">NORTH</span>
+        <span class="brand__sub">Arquitetura<br>&amp; Soluções</span>
+      </a>
+      <button class="nav-toggle" type="button" aria-expanded="false" aria-controls="site-nav" data-nav-toggle>
+        <span class="nav-toggle__label">Menu</span>
+        <span class="nav-toggle__lines" aria-hidden="true"></span>
+      </button>
+      <nav class="site-nav" id="site-nav" aria-label="Principal" data-nav>
+        <ul>
+          <li><a href="servicos.html">Serviços</a></li>
+          <li><a href="projetos.html">Projetos</a></li>
+          <li><a href="metodo.html">Método</a></li>
+          <li><a href="sobre.html">A North</a></li>
+        </ul>
+        <a class="btn btn--primary btn--sm" href="contato.html">Fale com a North</a>
+      </nav>
+    </div>
+  </header>
+  <!-- /layout:header -->
+
+  <main id="conteudo">
+    <section class="page-hero" aria-labelledby="page-title">
+      <div class="container">
+        <nav class="crumbs" aria-label="Você está em"><a href="index.html">Início</a> / <span aria-current="page">Método</span></nav>
+        <div class="page-hero__grid">
+          <h1 class="display page-hero__title" id="page-title" data-reveal>Toda solução começa com uma <em>boa pergunta.</em></h1>
+          <div class="page-hero__side" data-reveal>
+            <p class="lead">Um projeto se constrói em camadas. Em cada etapa, algumas perguntas guiam as decisões — e você participa de todas elas.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="container phases" aria-label="Etapas do método">
+      <ol>
+        <li class="phase" data-reveal>
+          <span class="phase__num">01</span>
+          <svg class="sketch phase__icon" viewBox="0 0 64 64" aria-hidden="true" focusable="false"><path class="draw" d="M14 40c0-14 8-24 20-24s18 8 18 16-8 14-18 14H22l-8 8Z"/></svg>
+          <div class="phase__body">
+            <h2 class="phase__title">Entender</h2>
+            <p>Conversa inicial, escuta e leitura do espaço. Antes de qualquer desenho, entendemos quem vai usar o lugar e o que precisa mudar.</p>
+          </div>
+          <ul class="phase__q" aria-label="Perguntas desta etapa">
+            <li>Como você usa esse espaço hoje?</li>
+            <li>O que não funciona?</li>
+            <li>Qual prazo você imagina?</li>
+          </ul>
+        </li>
+        <li class="phase" data-reveal>
+          <span class="phase__num">02</span>
+          <svg class="sketch phase__icon" viewBox="0 0 64 64" aria-hidden="true" focusable="false"><path class="draw faint" d="M8 20H56M8 36H56M20 8V56M36 8V56"/><path class="draw" d="M38 38m-10 0a10 10 0 1 0 20 0a10 10 0 1 0-20 0M45 45l10 10"/></svg>
+          <div class="phase__body">
+            <h2 class="phase__title">Investigar</h2>
+            <p>Levantamento, referências, limites e possibilidades. Medimos, observamos e reunimos as informações que vão sustentar o projeto.</p>
+          </div>
+          <ul class="phase__q" aria-label="Perguntas desta etapa">
+            <li>O que o espaço permite?</li>
+            <li>Quais referências fazem sentido para você?</li>
+            <li>O que precisa ser mantido?</li>
+          </ul>
+        </li>
+        <li class="phase" data-reveal>
+          <span class="phase__num">03</span>
+          <svg class="sketch phase__icon" viewBox="0 0 64 64" aria-hidden="true" focusable="false"><path class="draw" d="M8 52 32 18l24 34ZM32 18V52M20 52V38h10"/></svg>
+          <div class="phase__body">
+            <h2 class="phase__title">Projetar</h2>
+            <p>Croquis, estudos e soluções que viram projeto. As propostas são apresentadas e ajustadas junto com você.</p>
+          </div>
+          <ul class="phase__q" aria-label="Perguntas desta etapa">
+            <li>Essa solução resolve a necessidade?</li>
+            <li>Como a luz e o fluxo funcionam?</li>
+            <li>Que materiais traduzem a ideia?</li>
+          </ul>
+        </li>
+        <li class="phase" data-reveal>
+          <span class="phase__num">04</span>
+          <svg class="sketch phase__icon" viewBox="0 0 64 64" aria-hidden="true" focusable="false"><path class="draw" d="M10 16h22M18 28h26M30 40h24M10 52h44"/></svg>
+          <div class="phase__body">
+            <h2 class="phase__title">Planejar</h2>
+            <p>Detalhamento, especificações e organização das etapas, para que a execução aconteça com menos imprevistos.</p>
+          </div>
+          <ul class="phase__q" aria-label="Perguntas desta etapa">
+            <li>Em que ordem as coisas acontecem?</li>
+            <li>Quem faz o quê?</li>
+            <li>O que precisa estar definido antes da obra?</li>
+          </ul>
+        </li>
+        <li class="phase" data-reveal>
+          <span class="phase__num">05</span>
+          <svg class="sketch phase__icon" viewBox="0 0 64 64" aria-hidden="true" focusable="false"><path class="draw" d="M10 54H54M16 54V26h32v28M16 26 32 12l16 14M28 54V40h8v14"/></svg>
+          <div class="phase__body">
+            <h2 class="phase__title">Executar ou acompanhar</h2>
+            <p>Acompanhamento da obra para que o projeto chegue ao espaço como foi pensado.</p>
+            <span class="tag tag--outline">Quando contratado</span>
+          </div>
+          <ul class="phase__q" aria-label="Perguntas desta etapa">
+            <li>O que foi executado está de acordo com o projeto?</li>
+            <li>Que ajustes a obra pede?</li>
+          </ul>
+        </li>
+      </ol>
+      <p class="caption details__note">As etapas e entregas variam conforme o serviço e são definidas em proposta, de acordo com o escopo contratado.</p>
+    </section>
+
+    <section class="contact contact--band" aria-labelledby="cta-title">
+      <div class="container cta-band">
+        <h2 class="display contact__title" id="cta-title" data-reveal>A primeira etapa <em>é uma conversa.</em></h2>
+        <div class="cta-band__row">
+          <p class="lead" data-reveal>Conte o que você precisa. A gente começa entendendo.</p>
+          <div class="cta-band__actions" data-reveal>
+            <a class="btn btn--light" href="contato.html">Falar com a North <svg class="i" aria-hidden="true"><use href="#i-arrow"/></svg></a>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- layout:footer -->
+  <footer class="site-footer">
+    <div class="container site-footer__grid">
+      <a class="logo-lockup logo-lockup--invert" href="index.html" aria-label="North Arquitetura &amp; Soluções — página inicial">
+        <svg class="logo-lockup__mark" aria-hidden="true"><use href="#i-north"/></svg>
+        <span class="logo-lockup__name">NORTH</span>
+        <span class="logo-lockup__script">Arquitetura &amp; Soluções</span>
+      </a>
+      <nav class="site-footer__nav" aria-label="Rodapé">
+        <ul>
+          <li><a href="servicos.html">Serviços</a></li>
+          <li><a href="projetos.html">Projetos</a></li>
+          <li><a href="metodo.html">Método</a></li>
+          <li><a href="sobre.html">A North</a></li>
+          <li><a href="contato.html">Contato</a></li>
+        </ul>
+      </nav>
+      <dl class="site-footer__info">
+        <div><dt>E-mail</dt><dd data-config="email"><span class="slot">a definir</span></dd></div>
+        <div><dt>Instagram</dt><dd data-config="instagram"><span class="slot">a definir</span></dd></div>
+      </dl>
+    </div>
+    <div class="container site-footer__bottom">
+      <p>© <span data-year>2026</span> North Arquitetura &amp; Soluções</p>
+      <p>Desde janeiro de 2020</p>
+    </div>
+  </footer>
+  <!-- /layout:footer -->
+
+  <script src="assets/js/config.js"></script>
+  <script src="assets/js/main.js" defer></script>
+</body>
+</html>
